@@ -1,0 +1,153 @@
+\documentclass[a4paper,10pt]{article}
+
+\def\header#1#2#3#4#5#6{\pagestyle{empty}
+\noindent
+\begin{minipage}[t]{0.6\textwidth}
+\begin{flushleft}
+\bf #4\\% Fach eintragen
+#5 %Namen
+\end{flushleft}
+\end{minipage}
+\begin{minipage}[t]{0.4\textwidth}
+\begin{flushright}
+\bf #6\\
+#2 %Datum eintragen
+\end{flushright}
+\end{minipage}
+
+\begin{center}
+{\Large\bf Vokabeln} %Blatt eintragen
+
+%{(Abgabetermin #3)}
+\end{center}
+}
+
+% Basic Packages
+\usepackage[utf8]{inputenc}
+\usepackage[top=2.2cm, right=2.2cm, bottom=2.2cm, left=2.2cm]{geometry}
+\usepackage[german]{babel}
+\usepackage{CJK}
+\usepackage{longtable}
+\usepackage{fontenc}
+\usepackage{graphicx}
+
+% Layout Packages
+\usepackage{textcomp}
+\usepackage{multicol}
+\usepackage{ulem}
+%\usepackage{wasysym}
+\usepackage{pifont}
+\pagenumbering{arabic}
+
+\begin{document}
+\header{Nr. 2 \\}{\today}{11.05.15}{JAPANISCH I}{}{SS 15}
+\pagestyle{plain}
+\begin{CJK}{UTF8}{min}
+\begin{center}
+\begin{longtable}{|p{4cm}|p{2cm}|p{8cm}|}
+  \hline
+  ごい & 語彙 & Vokabeln \\
+  \hline \hline
+  ソフィ	& & Sophie \\
+  \hline
+  ここ　& & hier (Umgebung des Sprechers) \\
+  \hline  
+  そこ  & & da (Umgebung des Gespr\"achspartners) \\  
+  \hline
+  あそこ	& & dort dr\"uben (von beiden entfernt) \\
+  \hline
+  どこ　& & wo \\
+  \hline  
+  こちら  & & hierhin, hier (h\"ofliche Entsprechung von ここ)\\
+  \hline
+  そちら	& & dahin, da (h\"ofliche Entsprechung von そこ)\\
+  \hline
+  あちら　& & dorthin, dort dr\"uben (h\"ofliche Entsprechung von \newline あそこ)\\
+  \hline
+　どちら  & & wohin, wo (h\"ofliche Entsprechung von どこ)\\
+  \hline
+  きょうしつ & 教室 & Unterrichtsraum\\
+  \hline
+  しょくどう & 食堂　　& Speisesaal, Kantine \\
+  \hline
+  じむしょ　& 事務所　& B\"uro\\
+  \hline  
+  かいぎしつ　& 会議室　& Konferenzraum\\
+  \hline
+  うけつけ &	受付　& Anmeldung, Rezeption\\
+  \hline
+  ロビー　& & Lobby\\
+  \hline  
+  へや &	部屋　& Zimmer, Raum\\
+  \hline
+  トイレ　(おてあらい) (お手洗い) & & Toilette, WC\\
+  \hline
+  かいだん &	階段　& Treppe\\
+  \hline  
+  エレベーター & & Aufzug\\
+  \hline
+  エスカレーター & & Rolltreppe\\
+  \hline
+  じどうはんばいき	& 自動販売機　& Verkaufsautomat\\
+  \hline  
+  でんわ & 電話  & Telefon, Anruf\\
+  \hline
+  [お]くに & [お]国	& [Ihr] Land \\
+  \hline
+  かいしゃ &	会社　& Firma\\
+  \hline  
+  うち & & Haus \\
+  \hline
+  くつ &　靴　& Schuhe \\
+  \hline
+  ネクタイ &　& Krawatte\\
+  \hline  
+   ワイン & & Wein\\
+  \hline
+  うりば　& 売り場　	& Verkaufsabteilung (in einem Kaufhaus)\\
+  \hline
+  ちか & 地下　& Untergeschoss\\
+  \hline  
+  ーかい　(ーがい) &　─階 & -te Etage\\
+  \hline
+  なんがい & 何階	& welche Etage\\
+  \hline
+  ーえん	& ー円　& - Yen \\
+  \hline  
+   いくら & & wie viel (nur f\"ur Geld) \\
+  \hline
+  ひゃく	& 百　& Hundert \\
+  \hline
+  せん &	千　& Tausend \\
+  \hline  
+  まん　& 万 & Zehntausend \\
+  \hline
+  すみません。&	& Entschuldigen Sie bitte!/Entschuldigung! (wenn man jmd. anspricht) \\
+  \hline
+  どうも。　& & Danke! \\
+  \hline  
+  いらつしゃいませ。&  & Willkommen!/Was kann ich f\"ur Sie tun? (Begr\"ußungsformel an Kunden, die ins Gesch\"aft gekommen sind)\\
+  \hline
+  [...を]　見せてください。&	& Zeigen Sie mir bitte [...]!\\
+  \hline
+  じゃ　& & hm, nun, dann (wenn man die Worte des Gespr\"achspartners aufnimmt) \\
+  \hline  
+  [...を]ください &  & Geben Sie mir bitte [...]! (beim Einkaufen, Bestellen etc.)\\
+  \hline
+  イタリア &	& Italien\\
+  \hline
+  スイス　& & Schweiz\\
+  \hline  
+  フランス & & Frankreich\\
+  \hline
+  ジャカルタ & & Jakarta\\
+  \hline
+  バンコク　& & Bankok\\
+  \hline  
+  ベルリン & & Berlin\\
+  \hline
+\end{longtable}
+\end{center}
+
+\end{CJK}
+\end{document}

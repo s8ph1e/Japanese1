@@ -1,0 +1,64 @@
+\documentclass[a4paper,10pt]{article}
+
+\def\header#1#2#3#4#5#6{\pagestyle{empty}
+\noindent
+\begin{minipage}[t]{0.6\textwidth}
+\begin{flushleft}
+\bf #4\\% Fach eintragen
+#5 %Namen
+\end{flushleft}
+\end{minipage}
+\begin{minipage}[t]{0.4\textwidth}
+\begin{flushright}
+\bf #6\\
+#2 %Datum eintragen
+\end{flushright}
+\end{minipage}
+
+\begin{center}
+{\Large\bf Dai ikka: reibun} %Blatt eintragen
+
+%{(Abgabetermin #3)}
+\end{center}
+}
+
+% Basic Packages
+\usepackage[utf8]{inputenc}
+\usepackage[top=2.2cm, right=2.2cm, bottom=2.2cm, left=2.2cm]{geometry}
+\usepackage[german]{babel}
+\usepackage{CJK}
+\usepackage[CJK, overlap]{ruby}
+\usepackage{longtable}
+\usepackage{fontenc}
+\usepackage{graphicx}
+
+% Layout Packages
+\usepackage{textcomp}
+\usepackage{multicol}
+\usepackage{ulem}
+%\usepackage{wasysym}
+\usepackage{pifont}
+\pagenumbering{arabic}
+
+\begin{document}
+\header{Nr. 2 \\}{\today}{11.05.15}{JAPANISCH I}{}{SS 15}
+\pagestyle{plain}
+\begin{CJK}{UTF8}{min}
+\ruby{第}{だい}3\ruby{課}{か} 
+\begin{center}
+\begin{longtable}{|p{8cm}|p{8cm}|}
+  \hline
+ 　れいぶん & Beispiele\\
+  \hline \hline
+   \ruby{第}{だい}1\ruby{課}{か}& Lektion 1\\
+  \hline \hline
+  あなたは　ソフィさん　ですか。はい、わたしは　ソフィ　です。& Sind Sie Sophie? Ja, ich bin Sophie.\\
+  \hline
+  ソフィさんはかいしゃいんですか。いいえ、わたしは　かいしゃいんじゃ　ありません。がくせい　です。& Sophie ist Angestellte. Nein, ich bin keine Angestellte. Ich bin Studentin.\\
+ \hline
+  
+\end{longtable}
+\end{center}
+
+\end{CJK}
+\end{document}
